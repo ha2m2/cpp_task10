@@ -10,10 +10,13 @@
 			"LoadingPhase": "Default"
 		},
 		{
-        		"Name": "MySpartaLog",
-        		"Type": "Runtime",
-        		"LoadingPhase": "PreDefault"
-    		}
+			"Name": "MySpartaLog",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
 	],
 	"Plugins": [
 		{
