@@ -16,7 +16,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "MyNBCLog",
+			"Name": "MySpartaLog",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
