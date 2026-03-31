@@ -7,8 +7,12 @@
 		{
 			"Name": "ModuleAndPlugin",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+                		"Engine",
+                		"MySpartaLog"
+            		]
+		},
 	],
 	"Plugins": [
 		{
@@ -17,6 +21,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "MyNBCLog",
+			"Enabled": true
 		}
 	]
 }
