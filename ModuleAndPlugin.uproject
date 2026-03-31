@@ -7,16 +7,12 @@
 		{
 			"Name": "ModuleAndPlugin",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MySpartaLog",
-			"Type": "Runtime",
-			"LoadingPhase": "PreDefault",
+			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
+                		"Engine",
+                		"MySpartaLog"
+            		]
+		},
 	],
 	"Plugins": [
 		{
