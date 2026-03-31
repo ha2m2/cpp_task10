@@ -8,7 +8,12 @@
 			"Name": "ModuleAndPlugin",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		}
+		},
+		{
+        		"Name": "MySpartaLog",
+        		"Type": "Runtime",
+        		"LoadingPhase": "PreDefault"
+    		}
 	],
 	"Plugins": [
 		{
